@@ -1,1 +1,8 @@
-
+services:
+  - type: web
+    name: python-app
+    env: python
+    plan: free
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn main:app   # yoki python main.py, uvicorn main:app --host 0.0.0.0
