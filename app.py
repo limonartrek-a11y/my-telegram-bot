@@ -21,7 +21,7 @@ from aiohttp import web
 import json
 
 # Configuration
-API_TOKEN = os.getenv("8449120211:AAFDvImeAPSO7ytlF6FPU22Ptyf52FiY0e8")  # Tokenni environment variable dan oling (Renderda qo'shasiz)
+API_TOKEN = os.getenv("Bot Token")  # Tokenni environment variable dan oling (Renderda qo'shasiz)
 XASANOV_UZ = os.getenv("ADMIN_ID", "8362016991")  # Admin ID ni env dan, default qiymat bilan
 
 # Set timezone
